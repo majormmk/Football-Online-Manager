@@ -26,7 +26,7 @@ A web application for managing football teams and player transfers. Users can cr
 
 1. Clone the repository
 2. Install dependencies for both frontend and backend (npm install)
-3. Create a .env file in the backend directory and add the following:
+3. Create a '.env' file in the backend directory and add the following:
    - JWT_SECRET="<generated secret key>"
    - DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOWMxNTIxNTAtYmQ1MS00NDg5LTk5ZmYtOTIxYWM2YmQzZjQ3IiwidGVuYW50X2lkIjoiOTM1OTUxMThmYjcyMWY2OWNmMzlmYzZmZDc3MGQ4ZTM2NjA0ZjJkMzc3MzcwNzkzMjBiNmQyN2Y3MDM1MmRmZSIsImludGVybmFsX3NlY3JldCI6ImEyZWRlOTlkLTdiYzMtNGEwNS05MWIyLTg3NWUwM2I0YzBmNiJ9.Xu3jrVCl8qXPOPdXGPJ3tRDHqJ1juRSWB_Qcv4ZHA-I"
    - PULSE_API_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOWMxNTIxNTAtYmQ1MS00NDg5LTk5ZmYtOTIxYWM2YmQzZjQ3IiwidGVuYW50X2lkIjoiOTM1OTUxMThmYjcyMWY2OWNmMzlmYzZmZDc3MGQ4ZTM2NjA0ZjJkMzc3MzcwNzkzMjBiNmQyN2Y3MDM1MmRmZSIsImludGVybmFsX3NlY3JldCI6ImEyZWRlOTlkLTdiYzMtNGEwNS05MWIyLTg3NWUwM2I0YzBmNiJ9.Xu3jrVCl8qXPOPdXGPJ3tRDHqJ1juRSWB_Qcv4ZHA-I"
@@ -64,3 +64,10 @@ A web application for managing football teams and player transfers. Users can cr
 ### Documentation (1 hour)
 
 ### Total Time: 59 hours
+
+### Future Project Improvements
+
+- Integrating Google API's for sign-in
+- Creating individual team and player statistics
+- Adding a simulation feature that could predict the match winner
+- Creating team formations for simulations
