@@ -31,8 +31,9 @@ A web application for managing football teams and player transfers. Users can cr
    - DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOWMxNTIxNTAtYmQ1MS00NDg5LTk5ZmYtOTIxYWM2YmQzZjQ3IiwidGVuYW50X2lkIjoiOTM1OTUxMThmYjcyMWY2OWNmMzlmYzZmZDc3MGQ4ZTM2NjA0ZjJkMzc3MzcwNzkzMjBiNmQyN2Y3MDM1MmRmZSIsImludGVybmFsX3NlY3JldCI6ImEyZWRlOTlkLTdiYzMtNGEwNS05MWIyLTg3NWUwM2I0YzBmNiJ9.Xu3jrVCl8qXPOPdXGPJ3tRDHqJ1juRSWB_Qcv4ZHA-I"
    - PULSE_API_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOWMxNTIxNTAtYmQ1MS00NDg5LTk5ZmYtOTIxYWM2YmQzZjQ3IiwidGVuYW50X2lkIjoiOTM1OTUxMThmYjcyMWY2OWNmMzlmYzZmZDc3MGQ4ZTM2NjA0ZjJkMzc3MzcwNzkzMjBiNmQyN2Y3MDM1MmRmZSIsImludGVybmFsX3NlY3JldCI6ImEyZWRlOTlkLTdiYzMtNGEwNS05MWIyLTg3NWUwM2I0YzBmNiJ9.Xu3jrVCl8qXPOPdXGPJ3tRDHqJ1juRSWB_Qcv4ZHA-I"
 4. Run (node -e "console.log(require('crypto').randomBytes(64).toString('hex'))") to generate a secret key.
-5. Set up the database and configure Prisma (npx prisma migrate dev)
-6. Run the application (npm run dev for frontend and npm start for backend)
+5. Paste the generated secret key in the '.env' file.
+6. Set up the database and configure Prisma (npx prisma migrate dev)
+7. Run the application (npm run dev for frontend and npm start for backend)
 
 ## Time Report
 
